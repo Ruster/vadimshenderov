@@ -1,0 +1,65 @@
+.textblock > div {
+display:block;
+line-height:normal
+}
+
+.hmenu>li,.hmenu>li>a {
+display:inline!important;
+float:none!important;
+vertical-align:top
+}
+
+ul.hmenu>li:first-child {
+padding-right:0
+}
+
+.header {
+z-index:1
+}
+
+.content-layout,.content-layout-row,.layout-cell {
+display:block
+}
+
+.layout-cell {
+position:relative;
+float:left;
+clear:right
+}
+
+input[type=text] {
+margin:0 0 0 -3px
+}
+
+* html input[type=text] {
+margin:0
+}
+
+form.search>input[type=text] {
+margin:0 0 0 -3px
+}
+
+form.search div>input[type=text] {
+width:100%
+}
+
+* html form.search>input[type=text] {
+margin:0
+}
+
+.postcontent {
+height:1%
+}
+
+.close-alt,.arrow-right-alt,.arrow-left-alt {
+display:block!important
+}
+
+.cw,.ccw {
+display:none!important
+}
+
+.sidebar2 {
+width:auto;
+float:none
+}

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+    <categories>
+        <category id="1" title="Featured"/>
+        <category id="2" title="Articles"/>
+    </categories>
+    <articles>
+        <article id="1" category="2" title="Home" alias="article" path="/главная">
+            <![CDATA[<div class="content-layout-wrapper" style="margin-bottom: 0px;">
+<div class="content-layout" style="border-top-style:solid;border-top-width:0px;border-top-color:#636363; ">
+    <div class="content-layout-row">
+    <div class="layout-cell" style="border-top-style:solid;border-right-style:solid;border-top-width:0px;border-right-width:0px;border-top-color:#636363;border-right-color:#636363; padding-right: 10px;padding-left: 10px; width:100%" >
+        <p><br></p>
+        <p><br></p>
+        <p><br></p>
+        <p><br></p>
+        <p><br></p>
+        <p><br></p>
+        <p><br></p>
+        <p><br></p>
+        <p><br></p>
+        <p><br></p>
+        <p><br></p>
+        <p><br></p>
+        <p><br></p>
+        <p><br></p>
+        <p><br></p>
+        <p><br></p>
+        <p><br></p>
+        <p><br></p>
+        <p><br></p>
+        <p><br></p>
+        <p><br></p>
+        <p><br></p>
+        <p><br></p>
+        <p><br></p>
+        <p><br></p>
+        <p><br></p>
+        <p><br></p>
+    </div>
+    </div>
+</div>
+</div>
+]]>
+        </article>
+        <article id="2" category="2" title="Новости" alias="article-1" path="/новости">
+            <![CDATA[<p>Страница НОВОСТИ<br></p>]]>
+        </article>
+        <article id="3" category="2" title="О Себе" alias="article-2" path="/о-себе">
+            <![CDATA[<div class="content-layout">
+    <div class="content-layout-row">
+    <div class="layout-cell" style="padding: 10px; width:100%" >
+        <span style="color: #FFFFFF;">Страница О СЕБЕ</span>
+        <div style="margin-left: 2em"> </div>
+    </div>
+    </div>
+</div>
+]]>
+        </article>
+        <article id="4" category="2" title="Галерея" alias="article-3" path="/галерея">
+            <![CDATA[<span style="color: #FFFFFF;">Страница ГАЛЕРЕЯ</span>]]>
+        </article>
+        <article id="5" category="2" title="Как заказать" alias="article-4" path="/как-заказать">
+            <![CDATA[<p><span style="color: #FFFFFF;">Страница КАК ЗАКАЗАТЬ</span></p>]]>
+        </article>
+        <article id="6" category="2" title="Контакты" alias="article-5" path="/контакты">
+            <![CDATA[<p><span style="color: #FFFFFF;">Страница КОНТАКТЫ</span></p>]]>
+        </article>
+    </articles>
+    <menus>
+        <menu id="1" name="ct-horizontal-menu" title="Content / Horizontal Menu"/>
+        <menu id="2" name="ct-vertical-menu" title="Content / Vertical Menu"/>
+        <menu id="3" name="ct-special-menu" title="Content / Special Menu"/>
+    </menus>
+    <menuitems>
+        <menuitem id="1" menu="ct-horizontal-menu" title="ГЛАВНАЯ" alias="ct-menu-item-1" path="/главная" menutype="hmenu" type="single-article" article="1" showTitle="no" category="1" default="1"/>
+        <menuitem id="2" menu="ct-vertical-menu" title="ГЛАВНАЯ" alias="ct-menu-item-2" path="/главная" menutype="vmenu" type="single-article" article="1" showTitle="no" category="1"/>
+        <menuitem id="3" menu="ct-horizontal-menu" title="НОВОСТИ" alias="ct-menu-item-3" path="/новости" menutype="hmenu" type="single-article" article="2" showTitle="yes" category="1"/>
+        <menuitem id="4" menu="ct-vertical-menu" title="НОВОСТИ" alias="ct-menu-item-4" path="/новости" menutype="vmenu" type="single-article" article="2" showTitle="yes" category="1"/>
+        <menuitem id="5" menu="ct-horizontal-menu" title="О СЕБЕ" alias="ct-menu-item-5" path="/о-себе" menutype="hmenu" type="single-article" article="3" showTitle="yes" category="1"/>
+        <menuitem id="6" menu="ct-vertical-menu" title="О СЕБЕ" alias="ct-menu-item-6" path="/о-себе" menutype="vmenu" type="single-article" article="3" showTitle="yes" category="1"/>
+        <menuitem id="7" menu="ct-horizontal-menu" title="ГАЛЕРЕЯ" alias="ct-menu-item-7" path="/галерея" menutype="hmenu" type="single-article" article="4" showTitle="yes" category="1"/>
+        <menuitem id="8" menu="ct-vertical-menu" title="ГАЛЕРЕЯ" alias="ct-menu-item-8" path="/галерея" menutype="vmenu" type="single-article" article="4" showTitle="yes" category="1"/>
+        <menuitem id="9" menu="ct-horizontal-menu" title="КАК ЗАКАЗАТЬ" alias="ct-menu-item-9" path="/как-заказать" menutype="hmenu" type="single-article" article="5" showTitle="yes" category="1"/>
+        <menuitem id="10" menu="ct-vertical-menu" title="КАК ЗАКАЗАТЬ" alias="ct-menu-item-10" path="/как-заказать" menutype="vmenu" type="single-article" article="5" showTitle="yes" category="1"/>
+        <menuitem id="11" menu="ct-horizontal-menu" title="КОНТАКТЫ" alias="ct-menu-item-11" path="/контакты" menutype="hmenu" type="single-article" article="6" showTitle="yes" category="1"/>
+        <menuitem id="12" menu="ct-vertical-menu" title="КОНТАКТЫ" alias="ct-menu-item-12" path="/контакты" menutype="vmenu" type="single-article" article="6" showTitle="yes" category="1"/>
+        <menuitem id="13" menu="ct-special-menu" title="Special Blog Page" alias="ct-menu-item-13" menutype="menu" type="category-blog-layout" category="1"/>
+        <menuitem id="14" menu="ct-special-menu" title="Special Single Page" alias="ct-menu-item-14" menutype="menu" type="single-article" showTitle="yes" category="1"/>
+    </menuitems>
+    <modules>
+        <module id="1" title="Content / Horizontal Menu" showTitle="true" position="position-1" type="menu" menu="ct-horizontal-menu"/>
+        <module id="2" title="Новый блок 3" showTitle="true" position="position-7" type="custom">
+            <![CDATA[<p><span style="color: #C7C7C7;">Пустой блок</span> <span style="color: #C7C7C7;"><span style="color: #C7C7C7;">слев</span></span><span style="color: #C7C7C7;">а</span></p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<p><br></p>]]>
+        </module>
+        <module id="3" title="Новый блок 2" showTitle="true" position="position-6" type="custom">
+            <![CDATA[<p><span style="color: #C4C4C4;">Блок НОВОСТИ правый</span><br></p>]]>
+        </module>
+        <module id="4" title="Footer" showTitle="false" position="position-27" type="custom">
+            <![CDATA[
+  <div class="footer-inner">
+<div class="content-layout layout-item-0">
+    <div class="content-layout-row">
+    <div class="layout-cell" style="width: 100%">
+        <p><span style="font-size: 12px;">Powered by <a href="http://vk.com/ruslan_ternovoy" title="Создатель сайта"><span style="color: rgb(239, 196, 77);">Ruslan Ternovoy</span></a></span></p>
+        <p><span style="font-size: 12px;">Copyright © 2013. All Rights Reserved.</span></p>
+    </div>
+    </div>
+</div>
+
+  </div>
+]]>
+        </module>
+    </modules>
+    <parameters/>
+</data>
